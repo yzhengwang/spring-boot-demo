@@ -1,0 +1,13 @@
+server:
+  port: 8081
+jdbc:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://10.249.1.249:3306/sydltd_cloud
+  username: root
+  password: 123456
+#mybatis:
+#  configuration:
+#    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+mybatisConfigFile: mybatis-config.xml
+mapperPath: /mapper/**.xml
+typeAliasPackage: com.ordin.utils.entity
